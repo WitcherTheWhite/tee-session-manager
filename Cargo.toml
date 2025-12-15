@@ -1,0 +1,11 @@
+[package]
+name = "tee-session-manager"
+version = "0.1.0"
+authors = ["huangsiyuan <huangsiyuan@kylinos.cn>"]
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+dashmap = "6.1.0"
+bincode = "2.0.1"
+bytes = "1.11.0"
