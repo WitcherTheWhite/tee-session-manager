@@ -3,6 +3,7 @@ use bincode::{Decode, Encode};
 #[derive(Encode, Decode)]
 pub enum TARequest {
     Register { uuid: String },
+    OpenSession { uuid: String, params: Parameters },
 }
 
 #[derive(Encode, Decode)]
